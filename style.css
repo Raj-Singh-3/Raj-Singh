@@ -1,0 +1,156 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+}
+.nav{
+    background: #1d4052;
+    color: #fff;
+    padding: 30px;
+    font-size: 25px;
+}
+.nav img{
+    height: 120px;
+    float:left;
+    margin-right: 20px;
+    margin-top: 0;
+}
+.menu{
+    text-align: right;
+}
+ul li{
+    display: inline-block;
+    margin: 40px;
+    text-transform: uppercase;
+}
+li a{
+    color: yellow;
+}
+span{
+    margin: 0 20px;
+    font-size:28px;
+    cursor: pointer;
+    display: none;
+}
+@media only screen and (max-width:700px){
+    span{
+        display:block;
+    
+    }
+    ul li{
+        display: block;
+    }
+    ul{
+        display: none;
+    }
+}
+body{
+    background-color: black;
+}
+  .graph {
+    width: 300px;
+    text-align: right;
+  }
+  
+  .bar {
+    height: 70px;
+    margin: 10px 0;
+    transition: width 0.5s ease-in-out, background-color 0.5s ease-in-out;
+  }
+  
+  .java { --percentage: 80%; }
+  .python { --percentage: 60%; }
+  .c { --percentage: 90%; }
+  .html { --percentage: 90%; }
+  .javascript { --percentage: 68%; }
+  .css { --percentage: 70%; }
+  .reactjs { --percentage: 74%;}
+  .bar::before {
+    content: attr(data-label);
+    float: left;
+    margin-left: -100%;
+  }
+  .skills{
+    color: white;
+  }
+  
+  .bar::after {
+    content: attr(data-percentage);
+    margin-left: 170px;
+  }
+  
+  .bar.java { background: linear-gradient(to right, green var(--percentage), red var(--percentage)); }
+  .bar.python { background: linear-gradient(to right, green var(--percentage), red var(--percentage)); }
+  .bar.c { background: linear-gradient(to right, green var(--percentage), red var(--percentage)); }
+  .bar.html { background: linear-gradient(to right, green var(--percentage), red var(--percentage)); }
+  .bar.javascript { background: linear-gradient(to right, green var(--percentage), red var(--percentage)); }
+  .bar.css { background: linear-gradient(to right, green var(--percentage), red var(--percentage)); }
+  .bar.reactjs { background: linear-gradient(to right, green var(--percentage), red var(--percentage)); }
+  .bar:hover {
+    background: linear-gradient(to right, #2980b9, #2980b9);
+  }
+tr{
+    color: white;
+    text-align: center;
+}
+h3{
+    font-size: 35px;
+}
+h1{
+   display: inline; 
+   font-size: 60px;
+}
+#header{
+    margin-left: 10px;
+}
+#About{
+    color:white;
+}
+.about1{
+    display: inline-block;
+}
+p{
+    text-align: left;
+    font-size: 25px;
+}
+#tab{
+    display:block;
+}
+#skl{
+    text-align: center;
+    color: white;
+}
+#Heading{
+    padding-bottom: 150px;
+    text-align: center;
+    height: 250px;
+    background-color: navy;
+}
+#heading h1{
+    display: inline;
+}
+.project1-info{
+    color:white;
+    background-color: rgb(70, 40, 2);
+}
+.project2-info{
+    color:white;
+    background-color: rgb(70, 40, 2);
+}
+.project-item{
+    display: inline-block;
+    background-color: rgb(70, 40, 2);
+
+}
+/* Contact Us */
+#imp{
+    color: red;
+    text-decoration: underline;
+}
+#follow{
+    color: white;
+}
+#Hamarapata{
+    background-color: blueviolet;
+}
